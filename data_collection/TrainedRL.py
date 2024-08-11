@@ -15,7 +15,8 @@ from tensorflow.keras import layers
 
 from stable_baselines3 import SAC, PPO, A2C
 from stable_baselines3.ppo import MlpPolicy
-from stable_baselines3.common.cmd_util import make_vec_env
+# from stable_baselines3.common.cmd_util import make_vec_env
+from stable_baselines3.common.env_util import make_vec_env
 
 
 class TrainedRL():

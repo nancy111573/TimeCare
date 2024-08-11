@@ -1,0 +1,18 @@
+{
+    "userRL": {
+        "group": "rl",
+        "order": 1
+    },
+    "userRandom": {
+        "group": "random",
+        "order": 1
+    },
+    "userRL0": {
+        "group": "rl",
+        "order": 0
+    },
+    "userRandom0": {
+        "group": "random",
+        "order": 0
+    }
+}

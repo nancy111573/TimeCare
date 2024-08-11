@@ -280,7 +280,7 @@ class modular_math():
 
             if self.strategy_name == 'random':
                 self.strategy = Random_Strategy(action_size = 2)
-            else self.strategy_name == 'rl':
+            elif self.strategy_name == 'rl':
                 self.strategy = TrainedRL(self.rl_config)
             
 
